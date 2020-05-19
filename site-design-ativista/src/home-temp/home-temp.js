@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import splash from '../assets/img/Desk/SpashD-DESK.svg';
 import instagramIcon from '../assets/img/Desk/Instagram_white-DESK.svg';
 import marcaDA from '../assets/img/Desk/MarcaDA-DESK.svg'
+import splash from '../assets/img/Desk/SpashD-DESK.svg';
 
 import '../assets/scss/fonts.scss';
 import './home-temp.scss';
@@ -39,7 +39,6 @@ export class HomeTemp extends Component {
           </a>
 
           <label className="campaign__link">Aqui seu ativismo de sofá é bem-vindo e pode salvar vidas.
-            <br />
             <a href="https://drive.google.com/drive/u/0/folders/1-1-eyqyOgSboMoNpno12HxhkOnHaVVlG">Salve o arquivo aqui</a>
           </label>
 
