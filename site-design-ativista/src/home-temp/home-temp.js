@@ -18,6 +18,8 @@ export class HomeTemp extends Component {
 
         <article className="campaign">
 
+          {/* <div className="campaign__container"> */}
+
           <h1 className="campaign__title">#DesignAtivista contra a crise do <span>COVID-19</span></h1>
           <p className="campaign__text">
             Criamos um grupo de trabalho que
@@ -36,7 +38,7 @@ export class HomeTemp extends Component {
 
           <a className="drive__btn" href="https://drive.google.com/drive/u/0/folders/1f17bjVoqPZobK9w5hX-4Rr5U0XEE4IYf">
             escolha uma arte aqui
-          </a>
+            </a>
 
           <label className="campaign__link">Aqui seu ativismo de sofá é bem-vindo e pode salvar vidas.
             <a href="https://drive.google.com/drive/u/0/folders/1-1-eyqyOgSboMoNpno12HxhkOnHaVVlG">Salve o arquivo aqui</a>
@@ -46,7 +48,7 @@ export class HomeTemp extends Component {
             <img src={marcaDA} className="marcada__img" />
             <a className="insta__link" ><img src={instagramIcon} /> </a>
           </footer>
-
+          {/* </div> */}
         </article>
       </section>
 

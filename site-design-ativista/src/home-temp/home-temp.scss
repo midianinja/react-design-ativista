@@ -57,6 +57,8 @@
     }
 
     &__link {
+      display: flex;
+      flex-flow: wrap;
       width: 16rem;
       margin: 0 auto;
       font-family: 'Work Sans', sans-serif;
@@ -126,60 +128,115 @@
       &__title {
         font-size: 2.5rem;
       }
+
+      // &__link {
+      //   a {
+      //     padding-left: 0.3rem;
+      //   }
+      // }
     }
   }
 }
 
 @media (min-width: 1024px) {
+
   .home__temp {
-    flex-flow: wrap;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
+    flex-flow: row;
 
     .splash__area {
       height: 100vh;
       width: 50vw;
 
       img {
-        top: 50%;
-        transform: translateY(-50%);
-        width: 90%;
+        width: 100%;
+        left: 20vw;
       }
     }
 
     .campaign {
-      width: 39vh;
-      padding-left: 5rem;
+      width: 50vw;
+      margin: auto auto;
+      // padding: 1rem 10rem;
+
+      &__container {
+
+      }
+      &__title {
+        width: 28rem;
+        font-size: 2rem;
+      }
+      &__text {
+        width: 29rem;
+      }
 
       &__link {
+        display: block;
+        width: 22rem;
         margin: 0;
-        width: 21rem;
         text-align: left;
-
         a {
           padding-left: 0.5rem;
         }
       }
     }
-  }
 
-  .drive__btn {
-    margin: 2rem 0 1rem;
-  }
+    .drive__btn {
+      margin: 4rem 0 1rem;
+    }
 
-  .contato-da__footer {
-    justify-content: flex-start;
+    .contato-da__footer {
+      justify-content: flex-start;
+    }
   }
+  // .home__temp {
+  //   flex-flow: wrap;
+  //   align-items: center;
+  //   height: 100vh;
+  //   width: 100vw;
+
+  //   .splash__area {
+  //     height: 100vh;
+  //     width: 50vw;
+
+  //     img {
+  //       top: 50%;
+  //       transform: translateY(-50%);
+  //       width: 90%;
+  //     }
+  //   }
+
+  //   .campaign {
+  //     width: 39vh;
+  //     padding-left: 5rem;
+
+  //     &__link {
+  //       margin: 0;
+  //       width: 21rem;
+  //       text-align: left;
+
+  //       a {
+  //         padding-left: 0.5rem;
+  //       }
+  //     }
+  //   }
+  // }
+
+  // .drive__btn {
+  //   margin: 2rem 0 1rem;
+  // }
+
+  // .contato-da__footer {
+  //   justify-content: flex-start;
+  // }
 }
 
 @media (min-width: 1440px) {
-  .home__temp {
+  // .home__temp {
 
-    .campaign {
-      padding-left: 10rem;
-    }
-  }
+  //   .campaign {
+  //     padding-left: 10rem;
+  //   }
+  // }
 }
 
 
