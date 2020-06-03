@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"gatsbydesignativista21347937": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

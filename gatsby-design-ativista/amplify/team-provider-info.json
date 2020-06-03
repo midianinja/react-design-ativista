@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-gatsbydesignativista-dev-152922-authRole",
+            "UnauthRoleArn": "arn:aws:iam::032383812007:role/amplify-gatsbydesignativista-dev-152922-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::032383812007:role/amplify-gatsbydesignativista-dev-152922-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-gatsbydesignativista-dev-152922-deployment",
+            "UnauthRoleName": "amplify-gatsbydesignativista-dev-152922-unauthRole",
+            "StackName": "amplify-gatsbydesignativista-dev-152922",
+            "StackId": "arn:aws:cloudformation:us-west-2:032383812007:stack/amplify-gatsbydesignativista-dev-152922/284defe0-a5c8-11ea-bcb3-021902f1267e",
+            "AmplifyAppId": "ddsq89dthqhso"
+        },
+        "categories": {
+            "auth": {
+                "gatsbydesignativista21347937": {}
+            }
+        }
+    }
+}

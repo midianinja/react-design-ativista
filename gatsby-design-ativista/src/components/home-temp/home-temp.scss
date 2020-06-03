@@ -1,0 +1,248 @@
+
+.home__temp {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #000;
+  color: #fff;
+
+  .splash__area {
+    // background: url(../assets/img/Mobile/SpashD-MOB.svg);
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+    
+    // background-size: cover;
+    // background-position: top center;
+
+    img {
+      // box-sizing: border-box;
+      position: absolute;
+      overflow: hidden;
+      top: -4rem;
+      left: -4rem;
+      width: 133%;
+
+    }
+  }
+
+  .campaign {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 83%;
+    
+    &__title {
+      padding-bottom: 2rem;
+      text-transform: uppercase;
+      font-family: 'Krona One', sans-serif;
+      font-weight: lighter;
+      font-size: 1.5rem;
+      letter-spacing: 0.1rem;
+
+      span {
+        color: #FFF800;
+      }
+
+      @media (max-width: 768px) {
+        font-size: 1.3rem;
+      }
+    }
+
+    &__text {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 1.2rem;
+      letter-spacing: 0.1rem;
+  
+      b {
+        letter-spacing: 0;
+      }
+    }
+
+    &__link {
+      display: flex;
+      flex-flow: wrap;
+      width: 16rem;
+      margin: 0 auto;
+      font-family: 'Work Sans', sans-serif;
+      text-align: center;
+      color:  #FFE600;
+  
+      a {
+        text-decoration: underline;
+        font-weight: bold;
+        color:  #FFE600;
+      }
+    }
+  }
+
+}
+
+.drive__btn {
+  max-width: 100%;
+  width: 20rem;
+  margin: 3rem auto 2rem;
+  padding: 1rem 0;
+  border-radius: 2rem;
+  font-family: 'Krona One', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #FFE600;
+  color: #000;
+
+}
+
+.contato-da__footer {
+  display: flex;
+  justify-content: center;
+  margin: 3.5rem 0 2rem;
+
+  .marcada__img {
+    width: 6rem;
+  }
+  .insta__link {
+    width: 2rem;
+    margin-left: 1.5rem;
+    padding-left: 1.5rem;
+    border-left: solid 1px #ffffff73;
+  
+    img {
+      height: 2rem;
+    }
+  }
+}
+
+@media(min-width: 768px) {
+  .home__temp {
+    .splash__area {
+      height: 55vh;
+      img {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 65%;
+
+      }
+    }
+    .campaign {
+      padding: 0;
+      margin: 2rem auto;
+      width: 80%;
+      &__title {
+        font-size: 2.5rem;
+      }
+
+      // &__link {
+      //   a {
+      //     padding-left: 0.3rem;
+      //   }
+      // }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .home__temp {
+    flex-flow: row;
+
+    .splash__area {
+      height: 100vh;
+      width: 50vw;
+
+      img {
+        width: 100%;
+        left: 20vw;
+      }
+    }
+
+    .campaign {
+      width: 50vw;
+      margin: auto auto;
+      // padding: 1rem 10rem;
+
+      &__container {
+
+      }
+      &__title {
+        width: 28rem;
+        font-size: 2rem;
+      }
+      &__text {
+        width: 29rem;
+      }
+
+      &__link {
+        display: block;
+        width: 22rem;
+        margin: 0;
+        text-align: left;
+        a {
+          padding-left: 0.5rem;
+        }
+      }
+    }
+
+    .drive__btn {
+      margin: 4rem 0 1rem;
+    }
+
+    .contato-da__footer {
+      justify-content: flex-start;
+    }
+  }
+  // .home__temp {
+  //   flex-flow: wrap;
+  //   align-items: center;
+  //   height: 100vh;
+  //   width: 100vw;
+
+  //   .splash__area {
+  //     height: 100vh;
+  //     width: 50vw;
+
+  //     img {
+  //       top: 50%;
+  //       transform: translateY(-50%);
+  //       width: 90%;
+  //     }
+  //   }
+
+  //   .campaign {
+  //     width: 39vh;
+  //     padding-left: 5rem;
+
+  //     &__link {
+  //       margin: 0;
+  //       width: 21rem;
+  //       text-align: left;
+
+  //       a {
+  //         padding-left: 0.5rem;
+  //       }
+  //     }
+  //   }
+  // }
+
+  // .drive__btn {
+  //   margin: 2rem 0 1rem;
+  // }
+
+  // .contato-da__footer {
+  //   justify-content: flex-start;
+  // }
+}
+
+@media (min-width: 1440px) {
+  // .home__temp {
+
+  //   .campaign {
+  //     padding-left: 10rem;
+  //   }
+  // }
+}
+
+
