@@ -36,17 +36,19 @@ export class HomeTemp extends Component {
           </p>
 
 
-          <a className="drive__btn" href="https://drive.google.com/drive/u/0/folders/1f17bjVoqPZobK9w5hX-4Rr5U0XEE4IYf">
+          <a className="drive__btn" href="https://drive.google.com/drive/u/0/folders/1f17bjVoqPZobK9w5hX-4Rr5U0XEE4IYf" target="_blank">
             escolha uma arte aqui
-            </a>
+          </a>
 
           <label className="campaign__link">Aqui seu ativismo de sofá é bem-vindo e pode salvar vidas.
-            <a href="https://drive.google.com/drive/u/0/folders/1-1-eyqyOgSboMoNpno12HxhkOnHaVVlG">Salve o arquivo aqui</a>
+            <a href="https://drive.google.com/drive/u/0/folders/1-1-eyqyOgSboMoNpno12HxhkOnHaVVlG" target="_blank">Salve o arquivo aqui</a>
           </label>
 
           <footer className="contato-da__footer">
             <img src={marcaDA} className="marcada__img" />
-            <a className="insta__link" ><img src={instagramIcon} /> </a>
+            <a className="insta__link" href="https://www.instagram.com/designativista/" target="_blank">
+              <img src={instagramIcon} />
+            </a>
           </footer>
           {/* </div> */}
         </article>
